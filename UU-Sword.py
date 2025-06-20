@@ -16,7 +16,6 @@ BG_BLACK = "\033[40m"
 
 # Configuration
 METASPLOIT_PATH = "/usr/bin/msfconsole" if os.name != 'nt' else "C:\\metasploit-framework\\bin\\msfconsole.bat"
-ABUSEIPDB_API_KEY = "YOUR_API_KEY_HERE"  # Register at https://www.abuseipdb.com/
 
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
