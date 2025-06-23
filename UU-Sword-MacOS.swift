@@ -106,7 +106,7 @@ func decryptFile(path: String, base64Key: String) {
 
 func showHelp() {
     print("""
-    \(blue)UU-Sword macOS CLI - Help Menu\(reset)
+    \(blue)UU-Sword - Help Menu\(reset)
     1. Vulnerability Scan  → Scan target with Nmap
     2. Metasploit Scan     → Scan ports using Metasploit
     3. Encrypt File        → Encrypt file (AES-256-GCM)
@@ -118,7 +118,7 @@ func showHelp() {
 
 // Main Loop
 installDependencies()
-print("\(red)=== UU-Sword (macOS Cybersecurity CLI) ===\(reset)")
+print("\(red)=== UU-Sword ===\(reset)")
 
 while true {
     print("""
