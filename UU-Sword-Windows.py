@@ -7,14 +7,12 @@ import time
 from datetime import datetime
 from cryptography.fernet import Fernet
 
-# Colors (Red text on black background)
 RED = "\033[31m"
 GREEN = "\033[32m"
 BLUE = "\033[34m"
 RESET = "\033[0m"
 BG_BLACK = "\033[40m"
 
-# Configuration
 METASPLOIT_PATH = "/usr/bin/msfconsole" if os.name != 'nt' else "C:\\metasploit-framework\\bin\\msfconsole.bat"
 
 def clear_screen():
