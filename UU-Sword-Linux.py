@@ -3,7 +3,6 @@ import os
 import subprocess
 from cryptography.fernet import Fernet
 
-# ANSI colors
 RED = "\033[31m"
 GREEN = "\033[32m"
 BLUE = "\033[34m"
