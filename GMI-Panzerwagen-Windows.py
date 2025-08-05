@@ -73,7 +73,7 @@ def metasploit_scan(target, port):
     run_command(f"{METASPLOIT_PATH} -r msf_script.rc")
 
 def show_help():
-    print(f"\n{RED}UU-Sword User Guide{RESET}")
+    print(f"\n{RED}GMI-Panzerwagen User Guide{RESET}")
     print(f"{BLUE}1. Vulnerability Scan: Scans a target for CVEs using Nmap.")
     print("2. Metasploit Scan: Runs Metasploit exploits against a target.")
     print("3. Encrypt File: Encrypts a file with AES-256.")
@@ -82,7 +82,7 @@ def show_help():
 
 def main():
     clear_screen()
-    print(f"{BG_BLACK}{RED}=== UU-Sword (Advanced Cybersecurity Tool) ==={RESET}")
+    print(f"{BG_BLACK}{RED}=== GMI-Panzerwagen ==={RESET}")
     install_dependencies()
 
     while True:
@@ -121,3 +121,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
